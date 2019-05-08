@@ -12,3 +12,7 @@
 
 	This site is a static website with HTML, CSS and Node.js.
 	Web server running in local machine under WWAMP. When this project is finished it will run under AWS EC2 with Apache Server and MySql.
+
+## UI
+
+	The CSS framework chosen for this project was the **Materialize** from materializecss.com
