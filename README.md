@@ -15,4 +15,4 @@
 
 ## UI
 
-	The CSS framework chosen for this project was the **Materialize** from materializecss.com
+	The CSS framework chosen for this project was the [**Materialize**](http://materializecss.com)
