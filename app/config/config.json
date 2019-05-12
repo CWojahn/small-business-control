@@ -2,13 +2,15 @@
  
     "development": {
  
-        "username": "root",
+        "username": "userDtc",
  
-        "password": null,
+        "password": "Desde_1989",
  
         "database": "sequelize_passport",
  
         "host": "127.0.0.1",
+
+        "port": "3306",
  
         "dialect": "mysql"
  
