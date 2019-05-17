@@ -17,31 +17,31 @@
 		<div class="row"></div>
 			<div class="row">
 			<div class="col s4 m4 l4"></div>
-				<div id="signin" name="signin" class="col s4 m4 l4 card-panel z-depth-3 blue-grey darken-1">
-					<div class="center">
-						<p>
-							<img class="responsive-img" src="http://www.dinamicaeletrica.com/wp-content/uploads/2019/01/dinamica_eletrica_wht-uai-258x58.png">
-						</p>
-						<p> <h5 class="blue-grey-text text-lighten-4 Bebas Neuea">Task Control</h5></p>
-					</div>						
-					<div class="input-field blue-grey-text text-lighten-4">
-						<i class="material-icons prefix">account_circle</i>
-						<input id="icon_prefix" name="username" type="text" class="validate">
-						<label for="icon_prefix">Usuário</label>
-					</div>
-					<div class="input-field blue-grey-text text-lighten-4">
-						<i class="material-icons prefix">vpn_key</i>
-						<input id="icon_password" namr="password" type="password" class="validate" >
-						<label for="icon_password">Senha</label>
-					</div>
-					<p>
-						<div class="blue-grey-text text-lighten-4 center">
-							<button class="btn waves-effect waves-light" type="submit" action="signin" method="POST">Enviar
-								<i class="material-icons right">send</i>
-							</button>
+					<form class="col s4 m4 l4 card-panel z-depth-3 blue-grey darken-1" id="signin" name="signin" method="post" action="signin">
+						<div class="center">
+							<p>
+								<img class="responsive-img" src="http://www.dinamicaeletrica.com/wp-content/uploads/2019/01/dinamica_eletrica_wht-uai-258x58.png">
+							</p>
+							<p> <h5 class="blue-grey-text text-lighten-4 Bebas Neuea">Task Control</h5></p>
+						</div>						
+						<div class="input-field blue-grey-text text-lighten-4">
+							<i class="material-icons prefix">account_circle</i>
+							<input id="email" name="email" type="text" class="validate">
+							<label for="email">Usuário</label>
 						</div>
-					</p>
-				</div>
+						<div class="input-field blue-grey-text text-lighten-4">
+							<i class="material-icons prefix">vpn_key</i>
+							<input id="password" name="password" type="password" class="validate" >
+							<label for="password">Senha</label>
+						</div>
+						<p>
+							<div class="blue-grey-text text-lighten-4 center">
+								<button class="btn waves-effect waves-light" type="submit">Enviar	
+									<i class="material-icons right">send</i>
+								</button>
+							</div>
+						</p>
+					</form>
 			</div>
 				<div class="col s4 m4 l4"></div>
 			</div>
